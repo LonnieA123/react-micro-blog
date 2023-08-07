@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import BlogList from "./BlogList";
-import {useFetch} from "../Hooks/useFetch";
+import useFetch from "../Hooks/useFetch";
 
 const Home = () => {
     const {data, isLoading, error } = useFetch('http://localhost:8001/blogs')
