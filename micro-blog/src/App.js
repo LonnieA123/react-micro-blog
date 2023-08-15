@@ -7,6 +7,7 @@ import Create from "./Components/Create";
 //route for home
 function App() {
   return (
+      <Router>
     <div className="App">
         <Navbar/>
         <div className="content">
@@ -21,6 +22,7 @@ function App() {
         </div>
 
     </div>
+   </Router>
   );
 }
 
