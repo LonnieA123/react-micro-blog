@@ -28,7 +28,7 @@ const useFetch = (url) => {
                     setError(err.message)
                 }
             })
-
+        //aborts fetch whenever page changes
         return () => abortCont.abort();
     },[url]);
 
