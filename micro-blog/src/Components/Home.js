@@ -3,7 +3,7 @@ import BlogList from "./BlogList";
 import useFetch from "../Hooks/useFetch";
 
 const Home = () => {
-    const {data, isLoading, error } = useFetch('http://localhost:8000/blogs')
+    const {data, isLoading, error } = useFetch('http://localhost:8001/blogs')
 
     const title = "Welcome to our blog"
 
